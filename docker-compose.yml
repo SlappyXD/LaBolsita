@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "30000:8000"
+    environment:
+      - DATABASE_URL=mysql://admin:123456...@database-labolsita.c7c84wiaugd8.us-east-1.rds.amazonaws.com:3306/database-labolsita
+
