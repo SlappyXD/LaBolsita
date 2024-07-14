@@ -89,10 +89,10 @@ WSGI_APPLICATION = 'proyectois.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database-labolsita',
+        'NAME': 'labolsita',
         'USER': 'admin',
         'PASSWORD': '123456...',
-        'HOST': 'database-labolsita.c7c84wiaugd8.us-east-1.rds.amazonaws.com',
+        'HOST': 'labolsita.c7c84wiaugd8.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
